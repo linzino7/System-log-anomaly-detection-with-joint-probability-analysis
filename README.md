@@ -33,6 +33,8 @@ Preprocessed data in this work can download by [here](https://drive.google.com/f
 ## Training
 ### Our Method
 #### LDAP
+environment result show in [here](https://github.com/linzino7/System-log-anomaly-detection-with-join-histogram-analysis/blob/main/log/DeepSAD/LDAP_MIMO_conv_mlp/log.txt)
+
 ```
 mkdir log/DeepSAD/LDAP_MIMO_conv_mlp
 python3 src/main.py LDAP LDAP_MIMO_conv_mlp log/DeepSAD/LDAP_MIMO_conv_mlp data --lr 0.001  --n_epochs 30 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 100 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 --seed 2
