@@ -17,7 +17,9 @@ BGL original log data: https://github.com/logpai/loghub/tree/master/BGL
 Due to the Non-disclosure agreement, we could not public dataset. However, we offer preprocessed log key sequences.
 
 ### Preprocessed data 
-Preprocessed data in this work can download by [here]().
+we used same Preprocessing method with LogBERT in HDFS and BGL datasets.
+
+Preprocessed data in this work can download by [here](https://drive.google.com/file/d/1S9REkg2aONADkz9Vv-TqLrKxaMjCAgO1/view?usp=sharing).
 
 
 # Experiment
