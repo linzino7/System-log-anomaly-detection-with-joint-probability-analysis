@@ -23,7 +23,7 @@ Preprocessed data in this work can download by [here](https://drive.google.com/f
 
 
 # Experiment
-## environment
+## Environment
 * CPU: Intel(R) Xeon(R) CPU E5-2696 v4 @ 2.20GHz
 * RAM: 64G
 * GPU: Nvidia Tesla P100-PCIE
