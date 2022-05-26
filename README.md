@@ -33,7 +33,7 @@ Preprocessed data in this work can download by [here](https://drive.google.com/f
 ## Training
 ### Our Method
 #### LDAP
-environment result show in [here](https://github.com/linzino7/System-log-anomaly-detection-with-join-histogram-analysis/blob/main/log/DeepSAD/LDAP_MIMO_conv_mlp/log.txt)
+Experiment result show in [here](https://github.com/linzino7/System-log-anomaly-detection-with-join-histogram-analysis/blob/main/log/DeepSAD/LDAP_MIMO_conv_mlp/log.txt)
 
 ```
 mkdir log/DeepSAD/LDAP_MIMO_conv_mlp
