@@ -35,19 +35,19 @@ Preprocessed data in this work can download by [here](https://drive.google.com/f
 #### LDAP
 ```
 mkdir log/DeepSAD/LDAP_MIMO_conv_mlp
-python3 src/main.py LDAP LDAP_MIMO_conv_mlp log/DeepSAD/LDAP_MIMO_conv_mlp data --seed 2  --lr 0.001  --n_epochs 30 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 100 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01;
+python3 src/main.py LDAP LDAP_MIMO_conv_mlp log/DeepSAD/LDAP_MIMO_conv_mlp data --lr 0.001  --n_epochs 30 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 100 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 --seed 2
 ```
 
 #### HDFS
 ```
 mkdir log/DeepSAD/HDFS_MIMO_conv_mlp
-python3 src/main.py HDFS HDFS_MIMO_conv_mlp log/DeepSAD/HDFS_MIMO_conv_mlp data --seed 0  --lr 0.001  --n_epochs 30 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 100 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01;
+python3 src/main.py HDFS HDFS_MIMO_conv_mlp log/DeepSAD/HDFS_MIMO_conv_mlp data --lr 0.001  --n_epochs 30 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 100 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 --seed 0
 ```
 
 #### BGL
 ```
 mkdir log/DeepSAD/BGL_MIMO_conv_mlp
-python3 src/main.py BGL BGL_MIMO_conv_mlp log/DeepSAD/BGL_MIMO_conv_mlp data --seed 1  --lr 0.001  --n_epochs 50 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01
+python3 src/main.py BGL BGL_MIMO_conv_mlp log/DeepSAD/BGL_MIMO_conv_mlp data --lr 0.001  --n_epochs 50 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 --seed 1
 ```
 
 
@@ -55,19 +55,19 @@ python3 src/main.py BGL BGL_MIMO_conv_mlp log/DeepSAD/BGL_MIMO_conv_mlp data --s
 #### LDAP
 ```
 mkdir log/DeepSAD/LDAP_top64_MLP
-python3 src/main.py LDAP LDAP_mlp log/DeepSAD/LDAP_top64_MLP data --seed 0  --lr 0.001  --n_epochs 100 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 130 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 
+python3 src/main.py LDAP LDAP_mlp log/DeepSAD/LDAP_top64_MLP data --lr 0.001  --n_epochs 100 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 130 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01  --seed 0
 ```
 
 #### HDFS
 ```
 mkdir log/DeepSAD/HDFS_mlp
-python3 src/main.py HDFS HDFS_mlp log/DeepSAD/HDFS_mlp data --seed 0  --lr 0.0001  --n_epochs 200 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.0001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 
+python3 src/main.py HDFS HDFS_mlp log/DeepSAD/HDFS_mlp data --lr 0.0001  --n_epochs 200 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.0001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 --seed 0
 ```
 
 #### BGL
 ```
 mkdir log/DeepSAD/BGL_top64_MLP
-python3 src/main.py BGL BGL_mlp log/DeepSAD/BGL_top64_MLP data --seed 0  --lr 0.001  --n_epochs 100 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01
+python3 src/main.py BGL BGL_mlp log/DeepSAD/BGL_top64_MLP data --lr 0.001  --n_epochs 100 --lr_milestone 50 --batch_size 128 --weight_decay 0.5e-6 --pretrain True   --ae_lr 0.001 --ae_n_epochs 150 --ae_batch_size 128 --ae_weight_decay 0.5e-3 --n_known_outlier_classes 1  --ratio_known_normal 0.01 --seed 0
 ```
 
 ### DeepLog
