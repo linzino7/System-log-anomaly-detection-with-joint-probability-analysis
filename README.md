@@ -1,4 +1,4 @@
-System-log-anomaly-detection-with-join-histogram-analysis
+System log anomaly detection with joint probability analysis
 ========
 
 ![Overview of Our method](https://raw.githubusercontent.com/linzino7/System-log-anomaly-detection-with-join-histogram-analysis/main/overview.PNG)
